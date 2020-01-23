@@ -1,0 +1,100 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 17227441100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Initializer.beforeHooks()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Google input data Test Sceraio",
+        "description": "",
+        "id": "google-search-engine-feature;google-input-data-test-sceraio",
+        "after": [
+          {
+            "result": {
+              "duration": 18499,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Initializer.afterHooks()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5335754300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is already on Google page",
+            "match": {
+              "location": "LoginSteps.user_is_already_on_Google_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 155034300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User input \u0027New York\u0027 data in google empty box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "New York",
+                  "offset": 12
+                }
+              ],
+              "location": "LoginSteps.user_input_New_York_data_in_google_empty_box(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "User click on search key",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "User is search home page",
+            "match": {
+              "location": "LoginSteps.user_is_search_home_page()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@GoogleTest_001"
+          }
+        ]
+      }
+    ],
+    "name": "Google search engine FEATURE",
+    "description": "",
+    "id": "google-search-engine-feature",
+    "keyword": "Feature",
+    "uri": "Features/login.feature"
+  }
+]
